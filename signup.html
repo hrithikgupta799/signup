@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Image/facebooklog.webp" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c637b63244.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<main>
+    <h1>Create Account</h1>
+    <form action="">
+        <label for="fname">First Name : </label>
+        <input type="text" placeholder="Enter First Name" id="fname" required><br>
+        <label for="lname">Last Name : </label>
+        <input type="text" placeholder="Enter Last Name" id="lname" required><br>
+        <label for="email">Email          : </label>
+        <input type="email" placeholder="Enter Email" id="email" required><br>
+        <label for="mobile">Mobie Number : </label>
+        <input type="number" placeholder="Enter Mobile Number" id="mobile" required><br>
+        <label for="date">Date of Brith :</label>
+        <input type="datetime-local" id="date" required><br>
+        <label for="gender">Gender :</label>
+        <input type="radio" name="gen" id="gen">Male
+        <input type="radio" name="gen" >Female
+        <input type="radio" name="gen" required>Other<br>
+        <label for="">Status :</label>
+        <select name="" id="">
+            <option value="" hidden>-Select-</option>
+            <option value="" >Single</option>
+            <option value="">Married</option>
+        </select><br>
+        <label for="npass">Create Password :</label>
+        <input type="password" placeholder="Enter Password" required id="npass"><br>
+        <label for="cpass">Confirm Password :</label>
+        <input type="password" placeholder="Confirm Password" required id="cpass"><br>
+        <input type="checkbox" required>I have read and understood all the terms and condition<br>
+        <input type="checkbox" required>I am 18+ and accepting terms and condition<br>
+        <input type="color">
+        <input type="range"><br>
+        <!-- <input type="submit"> -->
+        <br><button>Sign Up</button>
+    </form>
+</main>
+</body>
+</html>
